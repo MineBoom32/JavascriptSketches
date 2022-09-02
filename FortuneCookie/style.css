@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+    font-size: 20px;
+}
+
+#fortune {
+    padding: 1em;
+    display: inline;
+    margin: auto;
+    background-color: burlywood;
+    outline: 2px solid black;
+}
