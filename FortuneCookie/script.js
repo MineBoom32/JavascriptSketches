@@ -31,10 +31,12 @@ class fortuneCookie extends randomPicker{
 
     open() {
         this.outputElement.innerHTML = this.fortune;
+        this.outputElement.style.backgroundColor = "white"
     }
     newFortune() {
         this.fortune = this.pickRandom();
         this.outputElement.innerHTML = "Click 'Open Cookie' to see your fortune!";
+        this.outputElement.style.backgroundColor = "burlywood"
     }
 }
 
