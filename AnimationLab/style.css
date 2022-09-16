@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    padding-left: 3%;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 30pt;
+    color: #05225C;
+}
+
+#headerbox {
+    height: 100pt;
+    background-color: #05225C;
+}
+
+#menuDiv {
+    height: 500pt;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: auto auto auto;
+}
+
+.optionBox {
+    background-color: #92278F;
+    margin: 20pt;
+    outline-style: solid;
+    outline-color: #05225C;
+    outline-width: 0;
+}
